@@ -1,0 +1,22 @@
+.btn{
+  font-size: $font-size;
+  background-color: $primary-color;
+  color: $light-font-color;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.btn-block{
+  display: block;
+}
+
+.btn-primary{
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  min-width: 120px;
+  min-height: 40px;
+  text-align: center;
+  line-height: 40px;
+}

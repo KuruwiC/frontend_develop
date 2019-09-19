@@ -1,0 +1,10 @@
+@import 'theme/default';
+
+$primary-color: map-get($color-map, primary);
+$secondary-color: map-get($color-map, secondary);
+$primary-bg-color: map-get($color-map, primary-bg);
+$secondary-bg-color: map-get($color-map, secondary-bg);
+$dark-font-color: map-get($color-map, dark-font);
+$light-font-color: map-get($color-map, light-font);
+$alert-color: map-get($color-map, alert);
+$font-size: 18px;
